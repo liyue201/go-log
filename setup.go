@@ -239,7 +239,7 @@ func configFromEnv() Config {
 	cfg := Config{
 		Format: ColorizedOutput,
 		Stderr: true,
-		Level:  LevelError,
+		Level:  LevelDebug,
 	}
 
 	format := os.Getenv(envLoggingFmt)
