@@ -1,4 +1,4 @@
-module github.com/ipfs/go-log/v2
+module github.com/liyue201/go-log/v2
 
 require (
 	go.uber.org/multierr v1.5.0
